@@ -1,0 +1,22 @@
+# Install TensorFlow Lite for Python
+# For all other systems, you can install with pip:
+# pip3 install --extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime
+
+# https://stackoverflow.com/a/2477610/9184658
+# requirements.txt:
+# -i http://dist.repoze.org/zope2/2.10/simple
+# zopelib
+
+# For those curious, -i is short for --index-url if anyone prefers to be explicit.
+
+numpy==1.19.5
+# tensorflow==2.4.1
+tensorflow-cpu==2.4.1
+# tf-nightly-cpu
+# tensorflow-cpu==2.1.0
+google-cloud-storage
+google-cloud-pubsub
+
+# https://stackoverflow.com/a/62328198/9184658
+# --extra-index-url https://google-coral.github.io/py-repo/
+# tflite-runtime==2.5.0
